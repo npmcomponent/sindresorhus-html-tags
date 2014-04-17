@@ -1,25 +1,7 @@
 {
-  "name": "html-tags",
-  "version": "0.3.1",
+  "name": "sindresorhus-html-tags",
   "description": "List of standard HTML tags",
-  "license": "MIT",
-  "repository": "sindresorhus/html-tags",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha",
-    "browser": "browserify -s $npm_package_name -o browser.js ."
-  },
-  "files": [
-    "index.js",
-    "html-tags.json"
-  ],
+  "version": "0.3.1",
   "keywords": [
     "html",
     "html5",
@@ -28,8 +10,6 @@
     "list",
     "w3c"
   ],
-  "devDependencies": {
-    "mocha": "*",
-    "browserify": "^3.0.0"
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
